@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="app.js" type="text/javascript" async></script>
+    <link href="style.css" rel="stylesheet">
+    <title>Age planétaire</title>
+</head>
+<body>
+    <h1>AGE PLANETAIRE</h1>
+        <p>
+            <label for="age">Choisis ton age</label></p><br>
+            <input type="number" id="age" name="age" placeholder="age">
+            <select name="choixtemp" id="tempus">
+                <option value="seconde" id="seconde">Secondes</option>
+                <option value="heure" id="heure">Heures</option>
+                <option value="jour" id="jour">Jours</option>
+                <option value="an" id="an">Ans</option>
+            </select>
+        </p>
+        <p>
+            <label for="choisi la planète">Choisis la planète  </label>
+                <select name="choix planète" id="planète">
+                    <option value="Terre" id="terre">Terre</option>
+                    <option value="Mercure" id="mercure">Mercure</option>
+                    <option value="Venus" id="venus">Venus</option>
+                    <option value="Mars" id="mars">Mars</option>
+                    <option value="Jupiter" id="jupiter">Jupiter</option>
+                    <option value="Saturne" id="saturne">Saturne</option>
+                    <option value="Uranus" id="uranus">Uranus</option>
+                    <option value="Neptune" id="neptune">Neptune</option>
+                </select><br>
+                <button onclick="plan()">Valider</button>
+                <br>
+                <h2 id="temp"></h2>
+        </p>
+</body>
+</html>

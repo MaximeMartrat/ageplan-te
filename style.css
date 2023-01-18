@@ -1,0 +1,52 @@
+*{
+    padding:0 ;
+    margin:0 ;
+    text-align: center;
+}
+body{
+    background-image: url("andromede-galaxie-espace.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    height: 100vh;
+}
+h1{
+    color: white;
+    font-size: 56px;
+    margin-bottom: 5rem;
+    text-shadow: 1px 1px 10px blue;
+}
+label{
+    font-size: 25px;
+    color: white;
+    text-shadow: 1px 1px 5px blue;
+    }
+input{
+    margin-bottom: 2rem;
+    border-radius: 6px;
+    padding: 5px;
+}
+button{
+    padding: 10px;
+    margin-bottom: 2rem;
+    border-radius: 6px;
+    background-color: aqua;
+    box-shadow: 0px 0px 10px black;
+}
+button:hover{
+    padding: 10px;
+    margin-bottom: 2rem;
+    border-radius: 6px;
+    background-color: blue;
+    color: white;
+    box-shadow: 0px 0px 10px black;
+}
+select{
+    margin-bottom: 2rem;
+    border-radius: 6px;
+    padding: 5px;
+}
+h2{
+    color: white;
+    text-shadow: 1px 1px 10px blue;
+}
